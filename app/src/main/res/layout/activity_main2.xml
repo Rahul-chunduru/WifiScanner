@@ -6,4 +6,50 @@
     android:layout_height="match_parent"
     tools:context=".Server">
 
+    <TextView
+        android:id="@+id/side"
+        android:layout_width="234dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />" />
+
+    <EditText
+        android:id="@+id/plain"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:hint="anything below 16 letters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="279dp"
+        android:layout_height="159dp"
+        android:fontFamily="cursive"
+        android:scrollbars="vertical"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttscan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <Button
+        android:id="@+id/buttscan"
+        android:layout_width="226dp"
+        android:layout_height="51dp"
+        android:text="Encrypt and Decrypt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
 </android.support.constraint.ConstraintLayout>
