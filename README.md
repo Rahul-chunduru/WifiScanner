@@ -1,6 +1,6 @@
 # WifiScanner
 1. Wifi scanning app
-2. Netwrok Monitoring
+2. Network Monitoring
 
 Code base for Summer project work under Prof. Bhaskaran Raman to augment SAFE IITB app:
 
